@@ -1,0 +1,31 @@
+{
+  "name": "fme-tour",
+  "main": "fme-tour.js",
+  "version": "1.0.4",
+  "homepage": "https://github.com/FullMeasureEducation/fme-tour.git",
+  "authors": [
+    "fme-samuelbirk <sam@fullmeasureed.com>"
+  ],
+  "description": "A simple angular directive for displaying tours in browsers and mobile ionic projects.",
+  "keywords": [
+    "tour",
+    "ionic",
+    "mobile",
+    "html5",
+    "angularjs"
+  ],
+  "dependencies": {
+    "jquery": "2.1",
+    "bootstrap": "3.1",
+    "angular": "*",
+    "angular-mocks": "*"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

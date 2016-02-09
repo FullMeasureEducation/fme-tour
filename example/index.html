@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-rc.2/angular.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../fme-guidance-image.js"></script>
+  </head>
+  <body ng-app="fme-guidance-image">
+    <div class='modal' id='guidance-image-modal'>
+      <div class='modal-dialog modal-lg'>
+        <div class='modal-content'>
+          <div class='modal-body' style='margin:0px; padding:0px;'>
+            <img id='full-size-image' width='100%' src=''/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div fme-guidance-image='true' src="https://fmes3.s3.amazonaws.com/development/uploads/screwdriver/user_upload/image/3/thumb_IMG_0094.jpg">
+    </div>
+
+    <div fme-guidance-image='true' src='https://fmes3.s3.amazonaws.com/development/uploads/screwdriver/user_upload/image/3/thumb_Screen_Shot_2015-08-14_at_4.56.05_PM.png' >
+    </div>
+  </body>
+</html>
