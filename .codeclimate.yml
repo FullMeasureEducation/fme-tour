@@ -1,9 +1,7 @@
 engines:
   coffeelint:
     enabled: true
-    checks:
-      max_line_length:
-        enabled: false
+    config: .coffeelint.json
   eslint:
     enabled: true
   scss-lint:
