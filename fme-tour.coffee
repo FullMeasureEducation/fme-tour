@@ -2,7 +2,7 @@ angular.module('fme-tour', ['ngStorage'])
 
 angular.module('fme-tour').config ($sceProvider) ->
   $sceProvider.enabled false
-  
+
 angular.module('fme-tour').directive 'fmeTour', ($compile, $injector, $localStorage) ->
   restrict: 'A'
   scope:
