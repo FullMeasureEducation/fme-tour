@@ -1,7 +1,7 @@
 {
   "name": "fme-tour",
   "main": "fme-tour.js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "https://github.com/FullMeasureEducation/fme-tour.git",
   "authors": [
     "fme-samuelbirk <sam@fullmeasureed.com>"
