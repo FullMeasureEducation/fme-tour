@@ -7,10 +7,18 @@
     "example": "example"
   },
   "dependencies": {
-    "bower": "^1.4.1",
+    "bower": "^1.4.1"
+  },
+  "devDependencies": {
     "chai": "~1.9.1",
     "codeclimate-test-reporter": "~0.0.4",
     "coffee-script": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^1.2.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-pipe": "^1.0.4",
+    "gulp-sass": "^2.2.0",
+    "gutil": "^1.6.4",
     "istanbul": "^0.3.5",
     "karma": "^0.12.32",
     "karma-chai": "^0.1.0",
@@ -28,9 +36,9 @@
     "q": "^2.0.2",
     "sinon": "^1.12.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "rm -rf ./coverage && ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
+    "debug": "karma start --browsers Chrome",
     "verify": "./node_modules/istanbul/lib/cli.js check-coverage --statements 100 --branches 100 --functions 100 --lines 100"
   },
   "repository": {

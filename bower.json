@@ -16,9 +16,10 @@
   ],
   "dependencies": {
     "jquery": "2.1",
-    "bootstrap": "3.1",
-    "angular": "*",
-    "angular-mocks": "*"
+    "bootstrap": "*",
+    "angular": "1.4.3",
+    "angular-mocks": "1.4.3",
+    "ngstorage": "^0.3.10"
   },
   "license": "MIT",
   "ignore": [

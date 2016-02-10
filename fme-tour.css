@@ -1,0 +1,63 @@
+.fme-tour-overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  opacity: 0.9;
+  z-index: 11;
+  background-color: #000; }
+
+.fme-tour-step {
+  z-index: 11 !important;
+  position: relative; }
+  .fme-tour-step.fme-tour-white-background {
+    background: white; }
+  .fme-tour-step.fme-tour-transparent-background {
+    background: transparent; }
+
+.fme-tour-step-clone {
+  position: fixed; }
+
+.fme-tooltip-reference-layer {
+  position: absolute;
+  visibility: hidden;
+  z-index: 12;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  min-width: 100vw; }
+
+.fme-tour-tooltip {
+  font-style: italic;
+  position: absolute;
+  visibility: visible;
+  padding: 0px;
+  width: 100%;
+  border: none;
+  font-size: 2.5em;
+  line-height: 1.1em;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+  .fme-tour-tooltip.center {
+    text-align: center; }
+  .fme-tour-tooltip.bottom.right {
+    text-align: right;
+    padding-left: 10%;
+    padding-right: 20px; }
+  .fme-tour-tooltip.bottom.left {
+    text-align: left;
+    padding-right: 10%;
+    padding-left: 20px; }
+  .fme-tour-tooltip.top {
+    top: -30px; }
+    .fme-tour-tooltip.top.right {
+      text-align: right;
+      padding-left: 10%;
+      padding-right: 20px; }
+    .fme-tour-tooltip.top.left {
+      text-align: left;
+      padding-right: 10%;
+      padding-left: 20px; }
