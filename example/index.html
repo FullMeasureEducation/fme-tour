@@ -1,27 +1,74 @@
 <html>
   <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../fme-tour.css">
 
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-rc.2/angular.min.js"></script>
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/ngstorage/ngstorage.min.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../fme-guidance-image.js"></script>
+    <script src="../fme-tour.js"></script>
+    <script src="tour_example.js"></script>
   </head>
-  <body ng-app="fme-guidance-image">
-    <div class='modal' id='guidance-image-modal'>
-      <div class='modal-dialog modal-lg'>
-        <div class='modal-content'>
-          <div class='modal-body' style='margin:0px; padding:0px;'>
-            <img id='full-size-image' width='100%' src=''/>
+  <body ng-app="fmeTourExample">
+    <div class="container">
+      <div fme-tour="EXAMPLE_TOUR">
+      <div class="row">
+        <div class="col-xs-6">
+          <div id ='fme_tour_top_left_item'>
+            <span class="'glyphicon glyphicon-fire"></span>
+            Left Top Aligned Item
+          </div>
+        </div>
+        <div class="col-xs-6 text-right">
+          <div id ='fme_tour_top_right_item'>
+            <span class="'glyphicon glyphicon-fire"></span>
+            Right Top Aligned Item
           </div>
         </div>
       </div>
-    </div>
-    <div fme-guidance-image='true' src="https://fmes3.s3.amazonaws.com/development/uploads/screwdriver/user_upload/image/3/thumb_IMG_0094.jpg">
-    </div>
-
-    <div fme-guidance-image='true' src='https://fmes3.s3.amazonaws.com/development/uploads/screwdriver/user_upload/image/3/thumb_Screen_Shot_2015-08-14_at_4.56.05_PM.png' >
-    </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <footer>
+        <div class="row">
+          <div class="col-xs-6">
+            <div id ='fme_tour_bottom_left_item'>
+              <span class="'glyphicon glyphicon-fire"></span>
+              Left Top Aligned Item
+            </div>
+          </div>
+          <div class="col-xs-6 text-right">
+            <div id ='fme_tour_bottom_right_item'>
+              <span class="'glyphicon glyphicon-fire"></span>
+              Right Top Aligned Item
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
   </body>
 </html>

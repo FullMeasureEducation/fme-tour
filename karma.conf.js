@@ -10,12 +10,11 @@ module.exports = function(config) {
       'bower_components/jquery/dist/jquery.js',
       'bower_components/angular/angular.js',
       'bower_components/angular-mocks/angular-mocks.js',
+      'bower_components/ngstorage/ngStorage.js',
       'fme-tour.coffee',
       'spec/*.coffee'
     ],
-
     reporters: ['progress', 'coverage'],
-
     preprocessors: {
       'fme-tour.coffee': ['coverage'],
       'spec/spec_helper.coffee': ['coffee'],
