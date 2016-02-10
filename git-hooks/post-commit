@@ -1,9 +1,10 @@
 #!/bin/sh
 if [ -a .commit ]
     then
+    echo "REMOVE .commit"
     rm .commit
-    git add $(git rev-parse --show-toplevel)/fme-tour.coffee
-    git add $(git rev-parse --show-toplevel)/spec/fme-tour-spec.coffee
+    git add $(git rev-parse --show-toplevel)/fme-tour.js
+    git add $(git rev-parse --show-toplevel)/spec/fme-tour-spec.js
     git add $(git rev-parse --show-toplevel)/karma_tests.html
     git add $(git rev-parse --show-toplevel)/git-hooks/.
     git commit --amend -C HEAD --no-verify
