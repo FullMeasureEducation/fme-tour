@@ -1,6 +1,7 @@
 # fme-tour
 A simple html5/angularjs directive for displaying guidance images
-
+[![Code Climate](https://codeclimate.com/github/FullMeasureEducation/fme-tour/badges/gpa.svg)](https://codeclimate.com/github/FullMeasureEducation/fme-tour)
+[![Build Status](https://travis-ci.org/FullMeasureEducation/fme-tour.svg?branch=master)](https://travis-ci.org/FullMeasureEducation/fme-tour)
 Tested with karma/chai/sinon
 #Install
 ```

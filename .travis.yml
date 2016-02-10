@@ -22,3 +22,7 @@ branches:
   except:
     - /\d{4}-\d{2}-\d{2}/
 
+addons:
+  code_climate:
+    repo_token: 6d243eb4633efc38af56cb11301e5fe593e486809263948feae5fffbf6c7137f
+
