@@ -54,9 +54,36 @@ angular.module('fmeTourExample').constant('EXAMPLE_TOUR', {
 ```
 Add the directive to the page
 ```html
-<!-- place the following anywhere you want the directive to take effect. The attribute should be set to the name of the tour constant you want to use." -->
+<!-- place the following anywhere you want the directive to take effect. The attribute should be set to the name of the tour constant you want to use. Make sure you have elements matching the selector attributes from the tour constant hash." -->
 <div fme-tour='FASTEST_GROWING_CAREER_TOUR'></div>
-
+ <div class="row">
+        <div class="col-xs-6">
+          <div id ='fme_tour_top_left_item'>
+            <span class="'glyphicon glyphicon-fire"></span>
+            Left Top Aligned Item
+          </div>
+        </div>
+        <div class="col-xs-6 text-right">
+          <div id ='fme_tour_top_right_item'>
+            <span class="'glyphicon glyphicon-fire"></span>
+            Right Top Aligned Item
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+          <div id ='fme_tour_bottom_left_item'>
+            <span class="'glyphicon glyphicon-fire"></span>
+            Left Top Aligned Item
+          </div>
+        </div>
+        <div class="col-xs-6 text-right">
+          <div id ='fme_tour_bottom_right_item'>
+            <span class="'glyphicon glyphicon-fire"></span>
+            Right Top Aligned Item
+          </div>
+        </div>
+      </div>  
 ```
 
 #Developer Info
