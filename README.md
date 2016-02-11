@@ -19,7 +19,6 @@ Add the css and js files to your project
 #Usage
 Create a constant with the tour options
 ```js
-<!-- Create a constant with the tour information -->
 angular.module('fmeTourExample', ['fme-tour']);
 angular.module('fmeTourExample').config(function($sceProvider){
   $sceProvider.enabled(false);
