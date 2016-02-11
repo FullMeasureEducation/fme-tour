@@ -1,5 +1,5 @@
 # fme-tour [![Code Climate](https://codeclimate.com/github/FullMeasureEducation/fme-tour/badges/gpa.svg)](https://codeclimate.com/github/FullMeasureEducation/fme-tour) [![Build Status](https://travis-ci.org/FullMeasureEducation/fme-tour.svg?branch=master)](https://travis-ci.org/FullMeasureEducation/fme-tour)
-A simple html5/angularjs directive for displaying guidance images
+A simple html5/angularjs tour for web browsers and mobile projects (e.g., ionic)
 
 Tested with karma/chai/sinon
 #Install
@@ -9,6 +9,13 @@ bower install fme-tour
 Inject the module into your angular app
 ```js
 angular.module('your-app',['fme-tour'])
+```
+
+Add the css and js files to your project
+```html
+<link href='bower_components/fme-tour/fme-tour.css' rel='stylesheet'></link>
+<script type='text/javascript' src='bower_components/fme-tour/fme-tour.js'></script>
+
 ```
 #Developer Info
 - git hooks do not git pushed to github
