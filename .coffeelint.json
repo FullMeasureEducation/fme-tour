@@ -71,7 +71,7 @@
     "level": "error"
   },
   "no_implicit_braces": {
-    "level": "error",
+    "level": "ignore",
     "strict": true
   },
   "no_implicit_parens": {
