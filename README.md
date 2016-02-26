@@ -59,13 +59,11 @@ Add the directive to the page
 <div class="row">
   <div class="col-xs-6">
     <div id ='fme_tour_top_left_item'>
-      <span class="'glyphicon glyphicon-fire"></span>
       Left Top Aligned Item
     </div>
   </div>
   <div class="col-xs-6 text-right">
     <div id ='fme_tour_top_right_item'>
-      <span class="'glyphicon glyphicon-fire"></span>
       Right Top Aligned Item
     </div>
   </div>
@@ -73,13 +71,11 @@ Add the directive to the page
 <div class="row">
   <div class="col-xs-6">
     <div id ='fme_tour_bottom_left_item'>
-      <span class="'glyphicon glyphicon-fire"></span>
       Left Top Aligned Item
     </div>
   </div>
   <div class="col-xs-6 text-right">
     <div id ='fme_tour_bottom_right_item'>
-      <span class="'glyphicon glyphicon-fire"></span>
       Right Top Aligned Item
     </div>
   </div>
